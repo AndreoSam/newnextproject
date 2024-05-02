@@ -1,0 +1,36 @@
+.header {
+    background-color: whitesmoke;
+    width: 100%;
+    color: black;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 10px;
+    list-style: none;
+}
+
+.navLink {
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navLink:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 18px;
+}
